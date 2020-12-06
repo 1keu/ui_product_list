@@ -2,7 +2,7 @@ name: eatpon_ui_product_lists
 description: A new Flutter package.
 version: 0.0.1
 homepage: https://eightgood.com/
-repository: https://github.com/1keu/UI_product_lists.git
+repository: https://github.com/1keu/ui_product_list.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
