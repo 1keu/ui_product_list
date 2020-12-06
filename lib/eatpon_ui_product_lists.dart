@@ -8,12 +8,14 @@ class ProductLists extends StatefulWidget {
   final bool borderEnabled;
   final Color borderColor = Color(0xfffD8D8D8);
   final Border border;
+  final Widget child;
 
   ProductLists({
     this.padding,
     this.margin,
     this.border,
     this.borderEnabled = false,
+    this.child,
   });
 
   @override
