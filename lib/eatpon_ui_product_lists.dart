@@ -25,10 +25,14 @@ class ProductLists extends StatefulWidget {
 class _ProductListsState extends State<ProductLists> {
   @override
   Widget build(BuildContext context) {
-    return !widget.borderEnabled
-        ? Container()
-        : Container(
-            padding: widget.padding,
-          );
+    return Container(
+        padding: widget.padding,
+        margin: widget.margin,
+        child: widget.child,
+        decoration: !widget.borderEnabled
+            ? BoxDecoration(
+                border: widget.border,
+              )
+            : null);
   }
 }
