@@ -6,7 +6,6 @@ class ProductLists extends StatefulWidget {
   final EdgeInsetsGeometry padding;
   final EdgeInsetsGeometry margin;
   final bool borderEnabled;
-  final Color borderColor = Color(0xfffD8D8D8);
   final Border border;
   final Widget child;
 
@@ -14,7 +13,7 @@ class ProductLists extends StatefulWidget {
     this.padding,
     this.margin,
     this.border,
-    this.borderEnabled = false,
+    this.borderEnabled = true,
     this.child,
   });
 
